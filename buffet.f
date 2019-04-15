@@ -1,0 +1,9 @@
+./dut/fifo.v
+./dut/buffet.v
+./dut/buffet_control.v
+./dut/utils/dpram.v
+./dut/utils/leadingZero.v
+./dut/utils/priorityEncoder.v
+./dut/utils/reverse.v
+./buffet_defines.v
+./testbench/tb_buffet_update.v

@@ -71,7 +71,7 @@ always @(posedge CLK) begin
 end
 
 generate
-    if(SEPARATE_WRITE_PORTS == 1) begin
+    if(SEPARATE_WRITE_PORTS == 0) begin
         always @(posedge CLK) begin
             if(WVALID0) begin
                 memory[WADDR0]	<= WDATA0;

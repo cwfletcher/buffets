@@ -278,9 +278,9 @@ always @(posedge clk or negedge nreset_i) begin
     end
     else begin
         if(update_valid_i) begin
-            update_valid_i_r <= 1'b1;
             update_idx_i_r <= update_idx_i;
         end
+        update_valid_i_r <= update_valid_i;
     end
 end
 
